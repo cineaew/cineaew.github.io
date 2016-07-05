@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<link href="Estilos.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body background="Imagenes/cine-5.jpg">
+<div id="tod">
+  <div id="header">
+    <div id="banner"><img src="Imagenes/Banner.jpg" width="900" height="400" alt=""/></div>
+  <a href="Cine.html"><img src="Imagenes/Menu.fw.png" width="200" height="50" alt=""/></a><a href="Estrenos.html"><img src="Imagenes/Cartelera.fw.png" width="200" height="50" alt=""/></a><a href="Promociones.html"><img src="Imagenes/Promociones.fw.png" width="200" height="50" alt=""/></a><img src="Imagenes/Contactanos.fw.png."><a href="https://www.facebook.com/"><img src="Imagenes/Facebook.fw.png" width="50" height="50" alt=""/></a><a href="https://www.youtube.com/"><img src="Imagenes/Youtube.fw.png" width="50" height="50" alt=""/></a></div>
+<form action="">
+    <table id="tabla">
+      <tr id="fila">
+   		<td colspan="2"><p>Registro de Tarjeta de Cine</p></td>     
+      </tr>
+      <tr>
+      		<td>Nombre:</td>
+            <td><input type="text" size="50"/></td>
+      </tr>
+      <tr>
+            <td>Apellido Paterno:</td>
+            <td><input type="text" size="50"/></td>
+      </tr>
+      <tr>
+      		<td>Apellido Materno:</td>
+            <td><input type="text" size="50"/></td>
+      </tr>
+      <tr>
+      		<td>Domicilio:</td>
+            <td><input type="text" size="50"/></td>
+      </tr>
+      <tr>
+      		<td>Tarjeta Bancaria:</td>
+            <td><input type="text" size="50"/></td>
+      </tr>
+      <tr>
+      		<td>Selecione Distrito:</td>
+            	<td>
+                <select name="cboDistrito">
+                	<option>[Distrito]</option>
+                	<option>Cercado de Lima</option>
+                	<option>Comas</option>
+                	<option>La Molina</option>
+                    <option>Lince</option>
+                	<option>Miraflores</option>
+                	<option>Puente Piedra</option>
+                    <option>Independencia</option>
+                	<option>San Juan de Miraflores</option>
+                	<option>San Martin de Porres</option>
+                    <option>San Miguel</option>
+                	<option>Villa María del Triunfo</option>
+                	<option>San Juan de Lurigancho</option>
+                	<option>Santa Rosa</option>
+                    <option>Los Olivos</option>
+                    <option>San Borja</option>
+                    <option>Villa El Savador</option>
+                </select>
+      </tr> 
+       <tr>
+      		<td>Nùmero de DNI:</td>
+            <td><input type="text" size="50"/></td>
+      </tr>
+	  <tr>
+      		<td>Ingrese Fecha de Nacimiento:</td>
+            	<td>
+                <select name="cboDia">
+                	<option>[Dia]</option>
+                	<option>1</option>
+                	<option>2</option>
+                	<option>3</option>
+                </select>
+                <select name="cboMes">
+                	<option>[Mes]</option>
+                	<option>Enero</option>
+                	<option>Febrero</option>
+                	<option>Marzo</option>
+                </select>
+                <select name="cboAño">
+                	<option>[Año]</option>
+                	<option>1990</option>
+                	<option>1991</option>
+                	<option>1992</option>
+                </select>                                 
+                </td>
+      </tr>
+       <tr>
+       		<td>Seleccione Sexo</td>
+            <td>
+            	Masculino<input type="radio" name="rbsexo"/>
+                Femenino<input type="radio" name="rbsexo"/>
+         </td>
+</tr>
+        <tr>
+        	<td>Ingrese contraseña:</td>
+            <td><input type="password" size="50"/>
+            </td>
+        </tr>
+<tr id="fila">
+       		<td colspan="2"><p>
+       		  <input type="reset" value="Borrar"/>
+              <input type="submit" value="Enviar"/>
+       		</p></td>
+      </tr>
+</body>
+</html>

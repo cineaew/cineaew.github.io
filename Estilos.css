@@ -1,0 +1,322 @@
+@charset "utf-8";
+body{
+	margin: auto;
+	padding: auto;
+	width: 900px;
+	float: center;
+	text-align: center;
+	color: #C33;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+#banner {
+	width: 900px;
+	height: 400px;
+}
+
+
+#Todo {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin: auto;
+}
+#combito {
+	width: 480px;
+	float:right;
+}
+#Combo pequeño {
+	float: left;
+	margin-left: 10px;
+	
+}
+#miicombo {
+	text-align:center;
+}
+#ne {
+	width: 411px;
+	float: left;
+	
+}
+#combo medianito {
+	text-align:center;
+}
+#apDiv1 {
+	position: absolute;
+	left: 286px;
+	top: 903px;
+	width: 338px;
+	height: 261px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 371px;
+	top: 876px;
+	width: 189px;
+	height: 18px;
+	z-index: 2;
+}
+#apDiv3 {
+	position: absolute;
+	left: 706px;
+	top: 902px;
+	width: 325px;
+	height: 247px;
+	z-index: 3;
+}
+#apDiv4 {
+	position: absolute;
+	left: 804px;
+	top: 882px;
+	width: 191px;
+	height: 18px;
+	z-index: 4;
+}
+#apDiv5 {
+	position: absolute;
+	left: 274px;
+	top: 1205px;
+	width: 337px;
+	height: 261px;
+	z-index: 5;
+}
+#apDiv6 {
+	position: absolute;
+	left: 706px;
+	top: 1206px;
+	width: 324px;
+	height: 261px;
+	z-index: 6;
+}
+#apDiv7 {
+	position: absolute;
+	left: 266px;
+	top: 1836px;
+	width: 340px;
+	height: 265px;
+	z-index: 7;
+}
+#apDiv8 {
+	position: absolute;
+	left: 709px;
+	top: 1521px;
+	width: 320px;
+	height: 262px;
+	z-index: 8;
+}
+#apDiv9 {
+	position: absolute;
+	left: 264px;
+	top: 1542px;
+	width: 337px;
+	height: 217px;
+	z-index: 9;
+}
+#apDiv10 {
+	position: absolute;
+	left: 269px;
+	top: 2217px;
+	width: 337px;
+	height: 219px;
+	z-index: 10;
+}
+#apDiv11 {
+	position: absolute;
+	left: 707px;
+	top: 1844px;
+	width: 337px;
+	height: 269px;
+	z-index: 11;
+}
+#apDiv12 {
+	position:absolute;
+	left:134px;
+	top:953px;
+	width:193px;
+	height:24px;
+	z-index:12;
+}
+#apDiv13 {
+	position:absolute;
+	left:130px;
+	top:991px;
+	width:199px;
+	height:25px;
+	z-index:13;
+}
+#apDiv14 {
+	position: absolute;
+	left: 766px;
+	top: 1489px;
+	width: 240px;
+	height: 27px;
+	z-index: 14;
+}
+#apDiv15 {
+	position: absolute;
+	left: 332px;
+	top: 1805px;
+	width: 243px;
+	height: 25px;
+	z-index: 15;
+}
+#apDiv16 {
+	position: absolute;
+	left: 771px;
+	top: 1808px;
+	width: 243px;
+	height: 29px;
+	z-index: 16;
+}
+#apDiv17 {
+	position: absolute;
+	left: 751px;
+	top: 583px;
+	width: 238px;
+	height: 27px;
+	z-index: 17;
+}
+#apDiv18 {
+	position: absolute;
+	left: 365px;
+	top: 587px;
+	width: 235px;
+	height: 28px;
+	z-index: 18;
+}
+#apDiv19 {
+	position: absolute;
+	left: 302px;
+	top: 630px;
+	width: 331px;
+	height: 215px;
+	z-index: 21;
+}
+#apDiv20 {
+	position: absolute;
+	left: 698px;
+	top: 619px;
+	width: 331px;
+	height: 262px;
+	z-index: 20;
+}
+#apDiv21 {
+	position: absolute;
+	left: 314px;
+	top: 2176px;
+	width: 235px;
+	height: 32px;
+	z-index: 21;
+}
+#apDiv22 {
+	position: absolute;
+	left: 350px;
+	top: 1497px;
+	width: 220px;
+	height: 30px;
+	z-index: 22;
+}
+#apDiv23 {
+	position: absolute;
+	left: 790px;
+	top: 1177px;
+	width: 220px;
+	height: 25px;
+	z-index: 23;
+}
+#apDiv24 {
+	position: absolute;
+	left: 358px;
+	top: 1177px;
+	width: 215px;
+	height: 25px;
+	z-index: 24;
+}
+#apDiv25 {
+	position: absolute;
+	left: 413px;
+	top: 510px;
+	width: 372px;
+	height: 59px;
+	z-index: 25;
+}
+#apDiv26 {
+	position: absolute;
+	left: 712px;
+	top: 2192px;
+	width: 333px;
+	height: 221px;
+	z-index: 26;
+}
+#apDiv27 {
+	position: absolute;
+	left: 765px;
+	top: 2157px;
+	width: 245px;
+	height: 30px;
+	z-index: 27;
+	font-weight: bold;
+}
+
+@media screen{
+#kabrito {
+	text-align:center;
+}
+#imgrande {
+	width: 420px;
+	float:right;
+}
+#cbgrande {
+	text-align:center;
+}
+#ssj4 {
+	width: 460px;
+	height: auto;
+	float:left;
+
+
+
+}
+#maria2 {
+	text-align:center;
+}
+#tabla{
+	width:100%;
+	margin:0px;
+	font-family:verdana;
+	color:#400040;
+	font-size:10px;
+	font-weight:bold;
+}
+#fila{
+	text-align:center;
+	color:#400040;
+	font-size:19px;
+	
+}
+
+#videos{
+	width: 390px;
+	float:left;
+	text-align:center;
+	margin: -6px;
+	
+}
+#videos 1{
+	width:0px;
+	text-align:center;
+	float:left;
+}
+#videos 2{
+	float:left;
+}
+#apDiv25 h2 {
+	color: #000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
